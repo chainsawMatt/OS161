@@ -1,127 +1,3 @@
-ls
-cd os161
-ls
-cd kern
-ls
-cd
-exit
-ls
-cd $HOME/os161
-ls
-cd
-ls
-cd $HOME/161
-cd $HOME/os161
-./configure --ostree=$HOME/os161//root --toolprefix=sos-
-ls
-cd kern/conf
-cd..
-cd ..
-ls
-pwd
-cd conf
-ls
-./config ASST0
-cd ../compile/ASST0
-pmake depend
-pmake
-pmake install
-cd $HOME/os161/
-pmake
-pmake install
-cd ~/os161/root
-cp~/sys161/sys161.conf sys161.conf
-cp ~/sys161/sys161.conf sys161.conf
-sys161 kernel-ASST0
-q
-exit
-ls
-cd os161
-ls
-cd
-ls
-cd sys161
-ls
-cd bin
-ls
-cd
-ls
-cd os161
-ls
-cd kern
-ls
-cd arch
-ls
-cd sys161
-ls
-cd conf
-ls
-..
-...
-../
-cd ..
-ls
-cd dev
-ls
-cd
-CD
-cd
-exit
-ls
-cd os161
-ls
-cd build
-ls
-..
-...
-./
-cd ..
-ls
-cd kern
-ls
-cd lib
-ls
-cd..
-cd ..
-ls
-cd arch
-ls
-cd sys161
-ls
-cd dev
-ls
-cd ..
-ls
-cd
-exit
-ls
-cd os161
-ls
-cd build
-ls
-cd ..
-ls
-cd common
-ls
-cd ..
-ls
-cd configurecd configure
-cd configure
-cd design
-ls
-cd ..
-ls
-cd user
-ls
-md include
-ls
-cd include
-ls
-cd..
-cd ..
-ls
-cd ..
-ls
 ssh-keygen -t rsa -b 4096 -C evamat15@evergreen.edu
 ls
 cat key.pub
@@ -396,5 +272,229 @@ cd .ssh
 ls
 vi known_host
 vi known_hosts
+cd
+exit
+ls
+cd os161
+ls
+cd kern
+ls
+cd lib
+ls
+cd ..
+ls
+cd dev
+ls
+cd ..
+cd compile
+ls
+cd asst0
+cd ..
+ls
+cd startup
+ls
+nano main.c
+ls
+cd..
+cd ..
+ls
+cd ..
+ls
+cd root
+ls
+sys161 kernel
+cd ..
+ls
+cd kern
+ls
+cd dev
+ls
+cd ..
+cd compile
+ls
+cd ..
+cd startup
+ls
+nano main.c
+cd ..
+ls
+cd dev
+ls
+cd ..
+cd compile
+ls
+cd asst0
+ls -la
+cd ASST0
+ls
+pmake depend
+pmake
+pmake install
+cd
+ls
+cd os161
+ls
+cd kern
+cd compile
+ls
+cd ..
+cd kern
+ls
+cd
+cd root
+ls
+cd os161
+cd root
+ls
+sys161 kernel
+cd
+ls
+git init
+git add .
+git commit -m "Banner Change"
+git push -u origin master
+cd os161
+cd kern
+cd startup
+ls
+nano hello.c
+ls
+cd
+ls
+cd test
+ls
+cd os161
+ls
+cd
+cd os161
+ls
+cd user
+ls
+cd ..
+man
+commands
+help
+locate test.h
+#include <iostream>
+#include <list>
+using namespace std;
+void uni(list<int> list1, list<int> list2) {
+ls
+cd build
+ls
+cd tooldir
+ls
+cd hostbin
+ls
+cd ..
+cd man
+cd common
+cd ..
+cd common
+ls
+cd libc
+ls
+cd ..
+cd man
+ls
+cd testbin
+ls
+cd ..
+cd bin
+ls
+cd ..
+ls
+cd kern
+ls
+cd test
+ls
+cd ..
+ls
+cd lib
+ls
+cd ..
+cd arch
+ls
+cd sys161
+ls
+cd include
+ls
+cd ..
+ls
+cd include
+ls
+nano test.h
+cd ..
+ls
+cd startup
+ls
+cd ..
+cd conf
+ls
+nano conf.kern
+./config ASST0
+cd ..
+ls
+cd compile
+cd asst0
+ls
+cd ASST0
+ls
+pmake depend
+pmake
+cd
+ls os161
+ls
+cd os161
+ls
+cd kern
+cd startup
+ls
+nano main.c
+nano hello.c
+cd ..
+cd compile
+ls
+cd ASST0
+ls
+pmake depend
+pmake
+pmake install
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd root
+ls
+sys161 kernel
+cd ..
+cd kern
+cd startup
+ls
+nano main.c
+nano hello.c
+nano main.c
+cd ..
+cd root
+cd ..
+cd root
+ls
+pmake depend
+pmake
+cd ..
+ls
+cd kern
+ls
+cd compile
+cd ASST0
+ls
+pmake depend
+pmake
+pmake install
+cd ..
+cd root
+sys161 kernel
 cd
 exit

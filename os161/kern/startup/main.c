@@ -104,7 +104,7 @@ boot(void)
 	kprintf("Matthew Evangelista's system version %s (%s #%d)\n", 
 		GROUP_VERSION, buildconfig, buildversion);
 	kprintf("\n");
-
+	hello();
 	/* Early initialization. */
 	ram_bootstrap();
 	proc_bootstrap();
